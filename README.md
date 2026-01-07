@@ -2,7 +2,16 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+First, install Dependencies:
+
+```bash
+npm install three@latest
+npm install three @types/three
+npm install @react-three/fiber
+npm install @react-three/drei
+```
+
+Second, run the development server:
 
 ```bash
 npm run dev
