@@ -1,5 +1,6 @@
 'use client';
 
+import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import Image from "next/image";
 
@@ -21,6 +22,7 @@ export default function Home() {
             <meshNormalMaterial wireframe />
           </mesh>
           <ambientLight />
+          <OrbitControls />
         </Canvas>
         <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
           + r3f basic starter.
